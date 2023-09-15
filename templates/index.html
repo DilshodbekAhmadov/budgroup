@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block content %}
+  {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../static/icons/favicon.svg">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="../static/css/style.min.css">
+    <title>BudGroup</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0"  data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true">
+
+    <section class="promo">
+
+        <header class="header">
+            <div class="container">
+                <button class="toogle_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="menu">
+                    <div class="menu__wrapper">
+                        
+                        <button class="menu__close"><svg width="29" height="30" viewBox="0 0 29 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+                                    fill="white" />
+                            </svg></button>
+                        <nav>
+                            <ul class="menu__list">
+                                <li> <a class="nav-link" href="index.html#about">о компании</a></li>
+                                <li> <a class="nav-link" href="index.html#works">работы</a></li>
+                                <li> <a class="nav-link" href="index.html#services">Услуги</a></li>
+                                <li> <a class="nav-link" href="index.html#partners">партнеры</a></li>
+                                <li> <a class="nav-link" href="index.html#contacts">контакты</a></li>
+
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="header__logo" href="index.html#">
+                            <img src="../static/img/promo/header-logo.svg" alt="">
+                        </a>
+
+                    </div>
+                    <div class="col-md-8">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html#about">о компании</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#works">работы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#services">Услуги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#partners">партнеры</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#contacts">контакты</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="index.html#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    рус
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.html#">рус</a></li>
+                                    <li><a class="dropdown-item" href="index.html#">узб</a></li>
+                                    <li><a class="dropdown-item" href="index.html#">анг</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="promo__slider">
+            <div class="promo__nav"></div>
+            <div class="promo__carousel">
+                <div class="carousel__item">
+                    <div class="container promo__container">
+                        <div class="promo__wrapper">
+                            <img src="../static/img/promo/wrapper-logo.svg" alt="">
+                            <h1 class="title__fz64">добро пожаловать<br>на сайт компании</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel__item">
+                    <div class="container promo__container">
+                        <div class="promo__wrapper">
+                            <img src="../static/img/promo/wrapper-logo.svg" alt="">
+                            <h1 class="title__fz64">добро пожаловать<br>на сайт компании</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel__item">
+                    <div class="container promo__container">
+                        <div class="promo__wrapper">
+                            <img src="../static/img/promo/wrapper-logo.svg" alt="">
+                            <h1 class="title__fz64">добро пожаловать<br>на сайт компании</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="promo__slider-dots"></div>
+        </div>
+
+    </section>
+
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="title__fz50">О КОМПАНИИ</h2>
+            <div class="about__grid">
+                <div class="about__column">
+                    <img src="../static/img/about/about-photo.jpg" alt="">
+                </div>
+
+                <div class="about__column">
+                    <p class="text text__fz20">«Bud group» - рекламно-производственная компания, основными направлениями деятельности которой являются изготовление любого вида рекламной  продукции, торгового оборудования и различных Арт-объектов. Более 20 лет осуществляем активную деятельность на рынке рекламных и PR услуг.</p>
+					<p class="text text__fz20">
+					- собственные производственные и офисные площади<br>
+					- собственное современное оборудование<br>
+					- укомплектованный штат квалифицированных сотрудников<br>
+					- собственный автопарк специально оборудованный для монтажа </p>
+					<p class="text text__fz20">Мы предлагаем нашим клиентам полный спектр рекламных услуг
+					от разработки фирменного стиля компании до изготовления и монтажа наружной рекламы. </p>
+					<p class="text text__fz20">
+					- Индивидуальный дизайн<br>
+					- Любые виды печати<br>
+					- Фрезеровка<br>
+					- Лазерная резка<br>
+					- UV, ЭКО, интерьерная печать<br>
+					- Конструкции любой сложности </p>
+                </div>
+            </div>
+
+            <div class="statistics__grid">
+                <div class="statistics__column">
+                    <h2 class="title__stat">20 ЛЕТ</h2>
+                    <p class="text__fz20">На рынке</p>
+                </div>
+                <div class="statistics__column">
+                    <h2 class="title__stat">50+</h2>
+                    <p class="text__fz20">Проектов каждый год</p>
+                </div>
+                <div class="statistics__column">
+                    <h2 class="title__stat">3000 м²</h2>
+                    <p class="text__fz20">Собственных производственных площадей</p>
+                </div>
+                <div class="statistics__column">
+                    <h2 class="title__stat">25 ЧЕЛ</h2>
+                    <p class="text__fz20">Опытных сотрудников</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section works" id="works">
+        <div class="container">
+
+            <h2 class="title__fz50">РАБОТЫ</h2>
+
+            <div class="works__slider">
+                <div class="works__nav"></div>
+
+                <div class="works__carousel">
+                    <div class="carousel__item">
+                        <a href="../static/img/works/1.jpg">
+                            <img data-lazy="img/works/1.jpg" alt="">
+                        </a>
+
+                    </div>
+                    <div class="carousel__item">
+                        <a href="../static/img/works/2.jpg">
+                            <img data-lazy="img/works/2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="carousel__item">
+                        <a href="../static/img/works/3.jpg">
+                            <img data-lazy="img/works/3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="carousel__item">
+                        <a href="../static/img/works/4.jpg">
+                            <img data-lazy="img/works/4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="carousel__item">
+                        <a href="../static/img/works/5.jpg">
+                            <img data-lazy="img/works/5.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/6.jpg">
+                            <img data-lazy="img/works/6.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/7.jpg">
+                            <img data-lazy="img/works/7.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/8.jpg">
+                            <img data-lazy="img/works/8.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/9.jpg">
+                            <img data-lazy="img/works/9.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/10.jpg">
+                            <img data-lazy="img/works/10.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/11.jpg">
+                            <img data-lazy="img/works/11.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/12.jpg">
+                            <img data-lazy="img/works/12.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/13.jpg">
+                            <img data-lazy="img/works/13.jpg" alt="">
+                        </a>
+                    </div>
+					<div class="carousel__item">
+                        <a href="../static/img/works/14.jpg">
+                            <img data-lazy="img/works/14.jpg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="title__fz50">УСЛУГИ</h2>
+            <div class="services__grid">
+                <div class="services__column">
+                    <img src="../static/img/services/services-logo-1.svg" alt="">
+                    <div class="text-item">
+                        <p class="text text__fz23">РАЗРАБОТКА ДИЗАЙНА:</p>
+                        <p class="text text__fz16">- Интерьера, экстерьера<br>
+                                                   - Ландшафтный дизайн<br>
+                                                   - Уличная мебель<br>
+                                                   - АРТ-объекты <br>
+                                                   - Навигационные системы:<br>
+                                                     &nbsp;&nbsp;таблички, указатели, вывески<br>
+                                                   - Полная 3D визуализация</p>
+                    </div>
+                </div>
+
+                <div class="services__column">
+                    <img src="../static/img/services/services-logo-2.svg" alt="">
+                    <div class="text-item">
+                        <p class="text text__fz21">ИНТЕРЬЕРНАЯ<br>И ШИРОКОФОРМАТНАЯ ПЕЧАТЬ:</p>
+                        <p class="text text__fz16">
+						                           - UV печать на любых поверхностях<br>
+						                           - Сольвентная, эко-сольвентная печать на баннере (оракале, самоклейке, фотобумаге,
+						                           холсте, бекпринте) и на других печатных материалах</p>
+                    </div>
+                </div>
+
+                <div class="services__column">
+                    <img src="../static/img/services/services-logo-3.svg" alt="">
+                    <div class="text-item">
+                        <p class="text text__fz23">ПОЛИГРАФИЯ: </p>
+                        <p class="text text__fz16"> 
+						- Офсетная печать <br>
+						</p>
+						<p class="text__fz22">Изготавливаем:</p>
+						<p class="text text__fz16"> 
+						- Флаеры<br>
+						- Визитки<br>
+						- Бланки<br>
+						- Открытки <br>
+						- Блокноты<br>
+						- Брошюры <br>
+						- Буклеты <br>
+						- Журналы <br>
+						- Календари<br>
+						- Упаковки<br>
+						- Каталоги<br>
+						- Справочники
+						</p>
+                    </div>
+                </div>
+
+                <div class="services__column">
+                    <img src="../static/img/services/services-logo-4.svg" alt="">
+                    <div class="text-item">
+                        <p class="text text__fz23">Производим:</p>
+                        <p class="text text__fz16"> 
+						- Объёмно-пространственные<br>световые конструкции; <br>
+						- Арт-инсталляции; <br>
+						- Крышные установки; <br>
+						- Оформление фасадов и витрин; <br>
+						- Уличная мебель:<br>скамейки, урны, опоры освещения)<br>
+						- Любые изделия из металла; <br>
+						- Оформление гостиниц, супермаркетов, медицинских центров; <br>
+						- Стеллы, пилоны, указатели; <br>
+						- Световые короба<br>
+						- Объемные буквы<br>
+						- Брендирование авто различной сложности; <br>
+						- Изготовление торгового оборудования;</p>
+                    </div>
+                </div>
+				<div class="services__column">
+                    <img src="../static/img/services/services-logo-5.svg" alt="">
+                    <div class="text-item">
+                        <p class="text text__fz21">Оформление праздников<br>и торжеств:</p>
+                        <p class="text text__fz16"> 
+						- Оформление свадеб;<br>
+						- Оформление Дня рождения; <br>
+						- Оформление ТРЦ, ресторанов и пр.; <br>
+						- Новый год и сезонные праздники; <br>
+						- Оформление учебных заведений;<br>
+						- Оформление бизнес мероприятий;</p>
+                    </div>
+                </div>
+				<div class="services__column">
+                    <img src="../static/img/services/services-logo-6.svg" alt="">
+                    <div class="text-item">
+                        <p class="text text__fz21">Продвинем ваш бизнес<br>на новый уровень:</p>
+                        <p class="text text__fz16"> 
+						- Таргетированная реклама; <br>
+						- Комьюнити; <br>
+						- Реклама у блогеров; <br>
+						- Посевы в тематических и локальных группах; <br>
+						- Написание продающих текстов;<br>
+						- Фото-видео съемка;<br>
+						- Оформление бизнес страниц в соц.сетях;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section partners" id="partners">
+        <div class="container">
+            <h2 class="title title__fz50">ПАРТНЕРЫ</h2>
+            <div class="partners__nav"></div>
+            <div class="partners__carousel">
+
+                <div class="carousel__item active">
+                    <img data-lazy="img/partners/1.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/2.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/3.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/4.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/5.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/6.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/7.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/8.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/9.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/10.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/11.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/12.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/13.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/14.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/15.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/16.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/17.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/18.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/19.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/20.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/21.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/22.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/23.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/24.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/25.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/26.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/27.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/28.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/29.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/30.png" alt="">
+                </div>
+				<div class="carousel__item">
+                    <img data-lazy="img/partners/31.png" alt="">
+                </div>
+
+            </div>
+    </section>
+
+    <section class="section map" id="contacts">
+        <div class="container-fluid">
+            <h2 class="title title__fz50">КОНТАКТЫ</h2>
+
+            <div class="map-box">
+
+                <!-- Создаём контейнер для карты -->
+                <div id="map"></div>
+
+
+                <!-- <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3071.6846369107375!2d66.95253860984172!3d39.65681137225066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1661543187020!5m2!1sru!2s"
+                    width="1920" height="800" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+                <div class="map__item">
+
+                    <form class="map-form" method="post" id="form" action="index.html">
+                        <h3 class="title title__fz30">ОБРАТНАЯ СВЯЗЬ</h3>
+                        <p class="text_fz14">Любые вопросы вы можете уточнить
+                            у нашего менеджера. <br> Просто оставьте заявку на сайте.</p>
+                        <div class="form-group">
+                            <input id="name" name="name" class="feed-form__input" type="text" placeholder="Имя"
+                                autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input id="phone" name="phone" class="feed-form__input" type="tel" placeholder="Телефон"
+                                required autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input id="email" name="email" class="feed-form__input" type="email" placeholder="Электронная почта"
+                                required autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="comment" name="comment" rows="10" placeholder="Ваше сообщение"></textarea>
+                        </div>
+
+                        <button id="submit" class="button button_main">Оставить заявку</button>
+
+                        <div class="politics">Нажимая на кнопку, вы соглашаетесь с
+                            <a href="index.html#">политикой конфиденциальности</a>
+                        </div>
+
+                    </form>
+
+                    <div class="map__address">
+                        г. Самарканд, ул. Жомий, 38 ориентир: Ресторан «Золотой Дворец»
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img src="../static/img/promo/header-logo.svg" alt="">
+                </div>
+                <div class="footer__grid">
+
+                    <div class="footer__column width--2">
+                        <img src="../static/icons/footer/calls.svg" alt="">
+                        <div class="phone__number">
+                            <a href="tel:+998933307277">
+                                <p>+998 66 233-01-26 </p>
+                                <p>+998 93 330-72-77</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__column social_link">
+                        <a href="https://www.facebook.com/reklama.samarkand">
+                            <img src="../static/icons/footer/facebook.svg" alt="facebook">
+                            <p class="footer__social-text">FACEBOOK</p>
+                        </a>
+                    </div>
+
+                    <div class="footer__column social_link">
+                        <a href="https://www.instagram.com/samarkandreklama/">
+                            <img src="../static/icons/footer/instagram.svg" alt="instagram">
+                            <p class="footer__social-text">INSTAGRAM</p>
+                        </a>
+                    </div>
+
+                    <div class="footer__column social_link">
+                        <a href="mailto:info@budgroup.uz">
+                            <img src="../static/icons/footer/mail.svg" alt="email">
+                            <p class="footer__social-text">INFO@BUDGROUP.UZ</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <button class="btn-top" id="scroll-top">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-up"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+        </svg>
+    </button>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <!-- Создаём карту -->
+    <script type="text/javascript">
+
+
+        // Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        ymaps.ready(init);
+
+        function init() {
+            // Создание карты.
+            // https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/map-docpage/
+            var myMap = new ymaps.Map("map", {
+                // Координаты центра карты.
+                // Порядок по умолчнию: «широта, долгота».
+                center: [39.653570, 66.946848],
+                // Уровень масштабирования. Допустимые значения:
+                // от 0 (весь мир) до 19.
+                zoom: 16,
+                // Элементы управления
+                // https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/controls/standard-docpage/
+                controls: [
+
+                    'zoomControl', // Ползунок масштаба
+                    'rulerControl', // Линейка
+                    'routeButtonControl', // Панель маршрутизации
+                    'trafficControl', // Пробки
+                    'typeSelector', // Переключатель слоев карты
+                    'fullscreenControl', // Полноэкранный режим
+
+                    // Поисковая строка
+                    // new ymaps.control.SearchControl({
+                    //     options: {
+                    //         // вид - поисковая строка
+                    //         size: 'large',
+                    //         // Включим возможность искать не только топонимы, но и организации.
+                    //         provider: 'yandex#search'
+                    //     }
+                    // })
+
+                ]
+            });
+
+            // Отключаем scrollZoom
+            // Подробнее https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/map.behavior.Manager-docpage/#map.behavior.Manager__param-behaviors
+            myMap.behaviors.disable('scrollZoom');
+
+            // Добавление метки
+            // https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Placemark-docpage/
+            var myPlacemark = new ymaps.Placemark([39.656987, 66.953495], {
+                // Хинт показывается при наведении мышкой на иконку метки.
+            }, {
+                // Опции.
+
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+
+                // Своё изображение иконки метки.
+                iconImageHref: 'img/map-logo.svg',
+                // Размеры метки.
+                iconImageSize: [126, 72],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-25, -78],
+            });
+
+           /* const mediaQuery = window.matchMedia('(max-width: 768px)')
+            function handleTabletChange(e) {
+                if (e.matches) {
+                    console.log('Media Query Matched!');
+                    myMap.setCenter([39.656987, 66.953495]);
+                } else {
+                    console.log('Опа!');
+                    myMap.setCenter([39.653570, 66.946848]);
+                }
+            }
+            mediaQuery.addListener(handleTabletChange)
+            handleTabletChange(mediaQuery)
+*/
+            // После того как метка была создана, добавляем её на карту.
+            myMap.geoObjects.add(myPlacemark);
+
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+    <script src="../static/js/jquery.validate.min.js"></script>
+    <script src="../static/js/jquery.inputmask.min.js"></script>
+    <script src="../static/js/slick.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="../static/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="../static/js/script.js"></script>
+    
+    <!--<script>
+        window.replainSettings = { id: 'a2dc240d-b0d7-4f1d-b223-b9f97cdf45e7' };
+        (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+        var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+        })('https://widget.replain.cc/dist/client.js');
+    </script>-->
+
+</body>
+{% endblock %}
+</html>
